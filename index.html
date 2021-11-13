@@ -1,0 +1,186 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+
+    <title>Cobra Casino</title>
+</head>
+<body>
+    
+    <div class="container">
+            <picture>
+            <source media="(max-width:664px)" srcset="assets/mobile/logoMobile.webp">
+            <img class="logo" src="assets/desktop/logo.webp" alt="logo" style="width:230px; height:200px;">
+            <img class="hero" src="assets/desktop/hero and coins.png" alt="">
+        </picture>
+        
+
+            <div class="flex background background-mobil">
+                    <div class="text"> 
+                        <h1>$1500 <span class="text-slim">FIRST</span><br> 
+                            DEPOSIT BONUS <br>
+                        +200 <span class="text-slim">Free Spins</span>     
+                        </h1>
+                       <a class="button" href="www.google.com">JOIN NOW</a>
+                    </div> 
+                    <div class="registration">
+                        <h2>Welcome to <br>
+                             <span  class="red">Cobra Casino</span></h2>
+                                
+                                <div class="aff-landing--right">
+                                    <div class="aff-landing__form--wrap">
+                                        <img class="locales__icon aff-landing__form--lang" alt="{{$parent.$parent.$parent.currentLocale}}"
+                                            ng-src="{{$parent.$parent.$parent.CDN.SERVER + '/' + $parent.$parent.$parent.CDN.ASSETS_PREFIX}}/flags/rectangular/{{$parent.$parent.$parent.currentLocale}}.svg">
+                                        <div class="aff-landing__form">
+                                            <div class="modal__header">
+                                                <div translate="frontend.links.welcome_to" translate-default="Welcome to"></div>
+                                                <b translate="frontend.links.cobracasino" translate-default="cobracasino"></b>
+                                                <casino-auth-social class="social--registr"></casino-auth-social>
+                                            </div>
+                                            <casino-form-registration columns="1" checkbox-after="1"></casino-form-registration>
+                                            <div class="modal__footer">
+                                                <div class="info-links">
+                                                    <span translate="frontend.links.have_an_account"
+                                                        translate-default="Already have an account?"></span>
+                                                    <a href="" ng-controller="AuthModal" ng-click="auth_modal.showLogin()"
+                                                    translate="frontend.links.login"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>    
+                      
+                  <!-- <div class="absolute-coins">
+                        <img  src="assets/desktop/coins and leavs.webp" alt="" style="width:780px; height:540px;">
+                    </div> -->
+                   
+            </div>
+
+           
+    <div>
+            <div class="flex-items">
+                <ul>
+                    <li>
+                        <picture class="secured">
+                            <source media="(max-width:600px)" srcset="assets/mobile/over.webp">
+                            <img class="secured" src="assets/desktop/USP1.webp" alt="" style="width:auto; height:auto;" >
+                        </picture>
+                       
+                       
+                    </li>
+                    
+                </ul>
+                <ul>
+                    <li>
+                        <picture>
+                            <source media="(max-width:600px)" srcset="assets/mobile/fast.webp">
+                            <img class="secured" src="assets/desktop/USP2.webp" alt="" style="width:auto; height:auto;" >
+                        </picture>
+                       
+                       
+                    </li>
+                   
+                </ul>
+                <ul>
+                    <li>
+                      <picture>
+                            <source media="(max-width:600px)" srcset="assets/mobile/cashback.webp">
+                            <img  class="secured"src="assets/desktop/USP3.webp" alt="" style="width:auto; height:auto;" >
+                        </picture>    
+                    </li>
+                    
+                </ul>
+
+                
+               
+                  
+            </div>
+            
+            <div class="cards">
+
+                <div class="card">
+                    <picture >
+                        <source media="(max-width:400px)" srcset="assets/mobile/level1Mobile.webp">
+                     <img class="absolute" src="assets/desktop/level_1.webp" alt="picture1" style="width:auto; height:auto;" >
+                     </picture>
+                    <div class="mt-0">
+                        <p class="first">150%</p>
+                        <p class="second"> on your 1st deposit</p> <br>
+                        <p class="third colorFirst ">up to $750 + 250FS</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <picture >
+                        <source media="(max-width:400px)" srcset="assets/mobile/level2Mobile.webp">
+                    <img class="absolute "src="assets/desktop/level_2.webp" alt="picture2" style="width:auto; height:auto;" >
+                    </picture>
+                    <div class="mt-0 direction">
+                        <p class="first left">50%</p>
+                        <p class="second"> on your 2nd deposit</p> <br>
+                        <p class="third colorSecond">up to $600 + 50FS</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <picture >
+                        <source  media="(max-width:400px)"srcset="assets/mobile/level3Mobile.webp">
+                    <img class="absolute "src="assets/desktop/level_3.webp" alt="picture3"  style="width:auto; height:auto;">
+                    </picture>
+                    <div class="mt-0 ">
+                        <p class="first">125%</p>
+                        <p class="second"> on your 3rd deposit</p> <br>
+                        <p class="third colorThird ">up to $750 + 250FS</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="flag-image">  1793
+                <picture>
+                    <source media="(max-width:1786px)" srcset="assets/desktop/flag4.png">
+                    <source media="(max-width:1479px)" srcset="assets/desktop/flag6.png">
+                <img src="assets/desktop/last-coin2.png" alt="Flag">
+                </picture>
+            </div> 
+            <div class="parteners-icon">
+                    <img src="assets/desktop/payments1.png" alt="" ">
+            </div>
+            <div class="logo-slider" ng-init="providers = [
+                                                                'netent', 'playngo', 'egt', 'yggdrasil', 'amatic', 'quickspin', 'betsoft', 'endorphina',
+                                                                 'pragmatic', 'relax','pushgaming','isoftbet', 'merkur','blueprint','evolution','playtech','authentic','ezugi','vivogaming','elk','habanero','casinotechnology','wazdan','thunderkick','augustgaming','felixgaming','belatra','platipus','evoplay','playson','booongo','1x2gaming','irondogstudio','leapgaming_white','booming','spinomenal','gameart','mrslotty'
+                                                            ]">
+                        <div class="logo-slider__list" data-uix-bxslider="hideControlOnEnd: true, infiniteLoop: false, maxSlides:30, adaptiveHeight:true, touchEnabled: false, moveSlides: 1">
+                            <a class="logo-slider__item" href="https://www.bgaming.com">
+                                <img ng-src="{{$root.CDN.SERVER}}/logos/providers/white/bgaming.svg"/>
+                            </a>
+                            <div class="logo-slider__item" ng-repeat="item in providers" data-notify-when-repeat-finished>
+                                <img ng-src="{{$root.CDN.SERVER}}/logos/providers/white/{{item}}.svg"/>
+                            </div>
+                        </div>
+            </div>
+    
+    </div> 
+            <footer>
+
+                <p class="footer-text">
+                    Copyright © 2020 Cobracasino.com is owned and operated by Dama N.V., a company registered and established under the laws of Curaçao, with registration number 152125 and registered address at Julianaplein 36, Willemstad, Curaçao, and its wholly-owned subsidiary,  <br>
+ <span class="bottom-text" >Strukin Limited registered address Pavlov Nirvana & Aipeias, 4, ALPHA TOWER, Floor 1, Flat 11, 3021, Limassol, Cyprus. Dama N.V. is licensed and regulated by Antillephone N.V. </span> <br>
+ <span cass="bottom-text-1" >(license no. 8048/JAZ2020-013). It is the player’s sole responsibility to inquire about the existing laws and regulations of the given jurisdiction for online gambling. All the payments related to Paysafe are processed through Dama N.V. </span> 
+                </p>
+            </footer>
+    </div>
+
+      
+      
+
+    
+</body>
+</html>

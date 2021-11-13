@@ -1,0 +1,863 @@
+:root{
+
+    --clr-dark:#202021;
+    --clr-gold:#e2b223;
+    --clr-white:#ffffff;
+    --clr-red:#c7444b;
+    --clr-red-strong:#da3a20;
+    font-size:16px;
+
+    --ff-family:"Roboto";
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+html, 
+body {
+    
+    background-image: url(assets/desktop/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+
+.container
+{
+    width:100%; 
+    max-width: 1920px;
+    position: relative;
+    margin:  auto;
+  
+}
+
+.flex
+{
+    display:flex;
+    gap:16rem;
+    flex-direction: row;
+   
+}
+
+.background
+{
+    background-image:url(assets/desktop/wallpaper-1920x600-test.webp) ;
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    min-height: 400px;
+     
+}
+
+.logo
+{
+    position:absolute;
+    left:45.8%;
+
+}
+
+
+.hero
+{
+    position: absolute;
+    left:0px;
+    top:20px;
+    width:620px;
+    height: 700px;
+}
+
+.absolute-coins
+{
+    position: absolute;
+    top:10rem;
+    left:-3rem;
+
+}
+.text
+{  
+    padding-top: 13rem;
+    padding-left: 41%;
+    text-transform: uppercase;
+    font-family: var(--ff-family);
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 900;
+}
+
+.text-slim
+{
+
+    font-family: 'Roboto ', sans-serif;
+    font-weight: 300;
+
+}
+  
+    
+.img-absolute
+{
+    position: absolute;
+    top:0;
+    left:-200px;
+
+}
+
+.button {
+    background-color:var(--clr-red);
+    color: white;
+    padding:1rem 3rem;
+    text-decoration: none;
+    margin-left: 6px;
+    display: inline-block;
+    border-width: 0px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 2px;
+   
+}
+
+button:focus { outline: none; }
+
+
+
+
+img{
+    max-width: 100%;
+}
+
+
+.registration
+{
+    
+    width:355px;
+    flex-direction: row;
+    background-color: gray;
+    margin-top: 2rem;
+    height:35rem;
+    background-color:#202021;
+    margin-right:2rem;
+    
+    
+}
+
+h2
+{
+    color:#bd353d;
+    padding: 2rem 6rem ;
+    
+}
+
+h1
+{
+    font-size: 3rem;
+    font-family: "Roboto";
+    font-weight: 900;
+}
+
+
+
+.flex-items
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:8rem;
+    margin-bottom: 0.8rem;
+    margin-top: -20px!important;
+}
+
+
+
+li
+{
+    
+    color:white;
+    list-style-type: none;
+}
+
+
+
+
+.absolute
+{
+    position:relative;
+    top:-4.8rem;
+    left:7rem;
+}
+
+.cards
+{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.card{
+    width:340px;
+    color:white;
+    background-color:hsl(0, 0%, 12%,0.5);
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+
+.first
+{
+    font-family: var(--ff-family);
+    font-size:2rem;
+    padding-left:8rem;
+    padding-top: -2rem;
+    font-weight:900 ;
+}
+
+.left
+{
+    padding-left:9rem;
+    
+}
+
+
+.second
+{
+
+        font-size: 1.125rem;
+        font-family: var(--ff-family);
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+        padding-left:5rem;
+        font-weight:900 ;
+        
+      
+      
+}
+
+.third
+
+{
+        font-size: 1.875rem;
+        font-family: "Roboto";
+        font-weight: bold;
+        line-height: 1.2;
+        text-transform: uppercase;
+        padding-left:2rem;
+        margin-bottom: 1.5rem;
+        font-weight:900 ;
+      
+}
+
+
+.colorFirst
+{
+    color: rgb(255, 255, 102);
+}
+
+.colorSecond
+{
+    color: rgb(102, 204, 204);
+         
+}
+
+.colorThird
+{
+    color: rgb(204, 255, 51);
+}
+
+.mt-0
+{
+    margin-top:-75px;
+}
+
+.parteners-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.flag-image
+{
+    position: absolute;
+    right:0px;
+    top:680px;
+}
+.logo-slider
+
+{
+   
+background-color:#2c2c2c ;
+height:3.75rem;
+
+}
+
+.footer-text
+    
+    {
+       
+        padding: 3rem;
+        color: white;
+        font-size: 1rem;
+
+    }
+
+
+.bottom-text
+{
+    padding-left:10rem;
+}
+
+.bottom-text-1
+{
+    padding-left:6rem;
+}
+
+
+@media only screen and (max-width: 1362px)
+
+{
+
+
+    
+
+    .flex-items
+    {
+        gap:15%;
+      
+    }
+    .container
+    {
+        width: 100%;
+
+
+    }
+    .background-mobil
+                {
+                    background-image:url(assets/mobile/1080-x-1071-wall-hero-coins-flag\ \(1\).png) ;
+                    background-repeat:no-repeat;
+                    background-size: 100% ;
+                    
+                }
+
+    .absolute-coins, .flag-image , .registration ,.hero ,.logo , .background
+    {
+        display:none;
+    }
+
+    .text{
+        padding-top:12vw!important;
+        
+    }
+
+    .cards
+    {
+        flex-direction: column;
+        gap: 0rem !important;
+        
+    }
+
+    .flex{
+        display:block;
+    }
+
+    .card
+    {
+        width:60%;
+        flex-direction: column;
+        padding-left: 30%;
+        
+    }
+
+    .mt-0
+    {
+        font-size:1rem;
+    }
+
+
+
+    .direction
+    {
+        flex-direction: row;
+    }
+
+    .text
+    {
+        
+        padding-left:0rem;
+        
+    }
+
+
+    .a
+    {
+            border-width: 0px;
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            border-radius: 2px;
+            background-color: rgb(189, 53, 61);
+            margin-top: 20rem;
+           
+          
+    }
+    .logo
+    {
+        position: absolute;
+        top:0;
+        right:35%
+    }
+
+    .logo
+    {
+        position: absolute;
+        top:0;
+        right:20%
+    }
+
+    .first
+    {
+        font-size: 2rem;
+        padding-left: 0;
+        
+    }
+
+   
+
+    .second
+    {
+        padding-left:2px;
+        font-size: 0.7rem;
+        color:"#a5a5a5";
+    }
+
+    .third
+    {
+        font-size: 1.3rem;
+        padding-left: 0;
+    }
+
+    .absolute
+    {
+        top:1.2rem;
+        left:-200px;
+        height: 100px!important;
+        width: 80px!important;
+    }
+
+    .mt-0 > br{
+        display:none;
+    }
+
+    
+
+}
+
+
+@media only screen and (max-width: 368px)
+{
+    
+
+
+}
+
+
+@media only screen and (max-width: 752px)
+{
+    .button{
+        padding:0.5rem 0.3rem!important;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 945px)
+{
+    h1{
+        font-size: 1.8rem!important;
+    }
+
+    .logo
+    {
+        position: absolute;
+        left: 35% !important;
+    }
+}
+
+@media only screen and (max-width: 677px)
+{
+
+    .first
+    {
+        padding-top: 1rem;;
+    }
+
+    .secured{
+        height: 102px!important;
+        width: 102px!important;
+    }
+
+
+    .asbolute{
+        width: 50px !important;;
+        height: 80px;
+    }
+
+   .cards{
+       padding: 0rem;
+       gap:0rem;
+   }
+
+    .logo
+    {
+            position: absolute;
+            
+            height: 100px!important;
+            width: 114px!important;
+            
+    
+    }
+
+    .card
+    {
+        width: 80%;
+        gap:0;
+    
+    }
+
+    .flex-items
+    {
+        gap:12%;
+        margin-top: -145px;
+    }
+
+    .logo
+    {
+        position: absolute;
+        top:0;
+        right:20%
+    }
+
+    .first
+    {
+        font-size: 1.5rem;
+        padding-left: 0;
+        padding-top: 25px;
+        
+    }
+
+    .second
+    {
+        padding-left:2px;
+        font-size: 0.7rem;
+        color:"#a5a5a5";
+    }
+
+    .third
+    {
+        font-size: 1rem;
+        padding-left: 0;
+       
+    }
+
+    .absolute
+    {
+        top:0.5rem;
+        left:-90px;
+        height: 70px!important;
+        width: 60px!important;
+        
+    }
+
+   .footer-text
+   
+   {
+       font-size: 0.5rem!important;
+   }
+
+   .button
+   {
+       margin-top: 0.5rem;
+       padding: 0.5rem 1rem;
+   }
+
+
+   .bottom-text
+{
+    padding-left:0;
+}
+
+
+.bottom-text-1
+{
+    padding-left:6;
+    
+}
+
+.footer-text
+{
+    padding: 2rem;
+}
+
+.footer-text > br
+{
+    display: none;
+}
+
+
+   
+h1
+  {
+      font-size: 1.2rem!important;
+  }    
+
+
+  
+.parteners-icon
+{
+    padding-inline: 3rem;
+}
+
+}
+
+
+@media only screen and (max-width: 430px)
+{
+    
+    h1
+    {
+        font-size: 1.125rem!important;
+    }
+
+    .secured{
+        height: 72px!important;
+        width: 72px!important;
+    }
+
+
+    .asbolute{
+        width: 50px !important;;
+        height: 80px;
+    }
+
+    .first
+    {
+        padding-top: 1rem;
+        padding-top: 25px;
+    }
+
+    .button
+    {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    .logo
+    {
+            position: absolute;
+            left: 38% !important;
+            height: 80px!important;
+            width: 91px!important;
+            
+    
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 325px)
+{
+    h1
+    {
+        font-size: 0.8rem!important;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1080px)
+{
+    .flex-items
+    {
+        margin-top:-3.5rem;
+    }
+    .card{
+        width: 80%;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1130px)
+{
+    h1
+    {
+            font-size: 2.5rem;
+        }
+    
+}
+
+@media only screen and (max-width: 536px)
+{
+    .flex-items
+    {
+        margin-top:-13rem!important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 830px)
+{
+    .flex-items
+    {
+        margin-top:-12rem;
+    }
+
+  
+
+
+
+
+@media only screen and (max-width: 1356px)
+{
+
+    .flag-image
+    {
+        position: absolute;
+        top:29rem;
+        right:-150px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1386px)
+
+{
+
+        .flag-image
+        {
+            position: absolute;
+            right: -70px !important;;
+        }
+
+       
+
+}
+
+
+
+
+@media only screen and (max-width: 1479px)
+
+{
+
+        .flag-image
+        {
+            position: absolute;
+            right:-50px;
+        }
+
+       
+
+}
+
+@media only screen and (max-width: 1615px)
+
+{
+
+       
+        .flex
+        {
+            gap:4rem
+        }
+
+        .logo
+        {
+            position:absolute;
+            left:40.6%;
+        }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1673px)
+
+{
+
+        
+    .flex{
+        gap:9rem;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1809px)
+
+{
+
+        .flex{
+            gap:4rem;
+        }
+
+
+}
+
+@media only screen and (max-width: 1786px)
+
+{
+
+        .flag-image
+        {
+            position: absolute;
+            top:650px;
+            height: 100px!important;
+        }
+
+       
+
+}
+
+
+
+
