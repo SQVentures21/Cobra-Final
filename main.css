@@ -492,7 +492,28 @@ height:3.75rem;
 
 
 
+@media only screen and (max-width: 1615px)
 
+{
+
+        .text
+        {
+            padding-left: 35%;
+        }
+
+        .flex
+        {
+            gap:4rem
+        }
+
+        .logo
+        {
+            position:absolute;
+            left:40.6%;
+        }
+
+
+}
 
 @media only screen and (max-width: 945px)
 {
